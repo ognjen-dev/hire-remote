@@ -2,8 +2,8 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="flex lg:flex lg:justify-center justify-center py-14 lg:py-16 z-0">
-            <div className="lg:max-w-lg lg:w-full lg:max-w-xs">
+        <div className="flex lg:flex lg:justify-center justify-center pt-14 lg:pt-24 z-0">
+            <div className="lg:w-20/5">
                 <label className="sr-only">search</label>
                 <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
