@@ -4,12 +4,12 @@ import BackgroundSmall from '../../../Images/small-screen-bg.png'
 
 const NavBar = () => {
     return (
-        <div>    
-            <div className="absolute inset-0 z-negative lg:opacity-100 opacity-90 md:-my-96">
-                <img src={BackgroundBig} className="lg:block hidden mt-80" />
-                <img src={BackgroundSmall} className="sm:block hidden" />
+        <div>
+            <div className="absolute z-negative lg:opacity-100 opacity-100">
+                <img src={BackgroundBig} className="lg:block md:block hidden lg:-mt-18 md:-mt-22" />
+                <img src={BackgroundSmall} className="lg:hidden md:hidden block md:-mt-44 sm:-mt-36 " />
             </div>
-            <div className="flex lg:flex justify-between lg:justify-between lg:p-3 py-5">
+            <div className="flex lg:flex justify-between lg:justify-between lg:p-3 lg:py-5 py-1">
                 <div className="sm:block hidden self-center">
                     <button className="mr-1 w-10 h-9 border-2 border-white rounded-md shadow-sm text-xs font-medium text-white bg-none hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
                         RSS
@@ -27,7 +27,7 @@ const NavBar = () => {
                 </a>
 
                 <div>
-                <button className="md:block hidden lg:inline-flex hover:border-blue-300 hover:text-blue-300 hover:bg-transparent ml-3 inline-flex items-center px-4 py-2 border-blue-300 border-2 rounded-lg bg-blue-300 text-md font-medium text-white">
+                <button className="lg:block hidden lg:inline-flex hover:border-blue-300 hover:text-blue-300 hover:bg-transparent ml-3 inline-flex items-center px-4 py-2 border-blue-300 border-2 rounded-lg bg-blue-300 text-md font-medium text-white">
                         Remote
                     </button>
 
