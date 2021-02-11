@@ -7,6 +7,7 @@ const NavBar = () => {
         <div>    
             <div className="absolute inset-0 z-negative lg:opacity-100 opacity-90 md:-my-96">
                 <img src={BackgroundBig} className="lg:block hidden mt-80" />
+                <img src={BackgroundSmall} className="sm:block hidden" />
             </div>
             <div className="flex lg:flex justify-between lg:justify-between lg:p-3 py-5">
                 <div className="sm:block hidden self-center">

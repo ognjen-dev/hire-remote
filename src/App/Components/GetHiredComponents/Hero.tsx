@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="flex lg:flex lg:justify-center justify-center py-16">
+        <div className="flex lg:flex lg:justify-center justify-center py-16 z-0">
             <div className="lg:max-w-lg lg:w-full lg:max-w-xs">
                 <label className="sr-only">search</label>
                 <div className="relative">

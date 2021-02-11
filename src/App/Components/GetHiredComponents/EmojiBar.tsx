@@ -3,7 +3,9 @@ import Emoji from './Emoji'
 
 const EmojiBar = () => {
     return (
-        <div>
+        <div className="lg:flex lg:flex-row z-0">
+            <Emoji />
+            <Emoji />
             <Emoji />
         </div>
     )
