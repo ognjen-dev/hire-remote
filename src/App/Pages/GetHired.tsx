@@ -8,6 +8,7 @@ const GetHired = () => {
         <div>
             <NavBar />
             <Hero />
+            <EmojiBar />
         </div>
     )
 }
