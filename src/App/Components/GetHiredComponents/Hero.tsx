@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
     return (
         <div className="flex lg:flex lg:justify-center justify-center pt-14 lg:pt-24 z-0">
-            <div className="lg:w-200/5">
+            <div className="lg:w-20/5">
                 <label className="sr-only">search</label>
                 <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
