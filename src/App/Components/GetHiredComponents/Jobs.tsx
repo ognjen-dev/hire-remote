@@ -5,9 +5,9 @@ import Job from './Job'
 const Jobs = () => {
     return (
         <div>
-            <ul className="px-0 lg:px-56 mt-10">
+            <ul className="px-0 lg:px-56 lg:mt-10 mt-2">
                 <AdSpace />
-                <Job />
+                <Job  />
                 <Job />
                 <Job />
             </ul>
