@@ -11,7 +11,6 @@ const GetHired = () => {
             <NavBar />
             <Hero />
             <EmojiBar />
-            <AdSpace />
             <Jobs />
         </div>
     )

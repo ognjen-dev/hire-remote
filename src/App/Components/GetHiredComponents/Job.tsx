@@ -55,7 +55,7 @@ import React from 'react'
 
 const Job = () => {
     return (
-        <div className="my-2 py-2 border lg:rounded-lg w-full flex items-center justify-between">
+        <div className="my-2 py-2 border lg:rounded-lg w-full flex items-center justify-between px-2">
             <div className="flex flex-row items-center">
                 <div className="ml-4">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" className="mr-4 w-11 rounded-sm border border-gray-200" />
@@ -89,12 +89,12 @@ const Job = () => {
                 </div>
 
                 <div className="font-mono mx-4 px-2 ml-16">
-                    <p>📌 1d</p>
+                    <p className="text-sm">📌 1d</p>
                 </div>
             </div>
             <div>
                 <button className="md:block hidden bg-red-500 py-2 px-12 rounded-xl mr-5">
-                    <p className="font-mono font-semibold text-white">Apply</p>
+                    <p className="font-semibold text-white">Apply</p>
                 </button>
             </div>
 
