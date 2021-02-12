@@ -10,12 +10,12 @@ const NavBar = () => {
                 <img src={BackgroundSmall} className="lg:hidden md:hidden block -mt-6 md:-mt-44 sm:-mt-36" />
             </div>
             <div className="flex lg:flex justify-between lg:justify-between lg:p-3 lg:py-5 py-1">
-                <div className="sm:block hidden self-center">
-                    <button className="mr-1 w-10 h-9 border-2 border-white rounded-md shadow-sm text-xs font-medium text-white bg-none hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
+                <div className="sm:block hidden self-center -mt-10 -ml-1">
+                    <button className="mr-1 w-8 h-7 border-2 border-white rounded-sm shadow-sm text-xs font-medium text-white bg-none hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
                         RSS
                     </button>
 
-                    <button className="w-10 h-9 border-2 border-white rounded-md shadow-sm text-xs font-medium text-white bg-none hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
+                    <button className="w-8 h-7 border-2 border-white rounded-sm shadow-sm text-xs font-medium text-white bg-none hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
                         API
                     </button>
                 </div>
