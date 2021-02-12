@@ -3,6 +3,7 @@ import NavBar from '../Components/SharedComponents/NavBar'
 import Hero from '../Components/GetHiredComponents/Hero'
 import EmojiBar from '../Components/GetHiredComponents/EmojiBar'
 import Jobs from '../Components/GetHiredComponents/Jobs'
+import AdSpace from '../Components/GetHiredComponents/AdSpace'
 
 const GetHired = () => {
     return (
@@ -10,6 +11,7 @@ const GetHired = () => {
             <NavBar />
             <Hero />
             <EmojiBar />
+            <AdSpace />
             <Jobs />
         </div>
     )

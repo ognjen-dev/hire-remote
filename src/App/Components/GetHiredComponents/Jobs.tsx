@@ -4,7 +4,7 @@ import Job from './Job'
 const Jobs = () => {
     return (
         <div>
-            <ul className="px-0 lg:px-56 mt-20">
+            <ul className="px-0 lg:px-56 mt-10">
                 <Job />
                 <Job />
                 <Job />
