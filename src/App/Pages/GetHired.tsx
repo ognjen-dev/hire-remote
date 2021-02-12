@@ -9,10 +9,8 @@ const GetHired = () => {
         <div>
             <NavBar />
             <Hero />
-            <div className="lg:px-72 px-0">
-                <EmojiBar />
-                <Jobs />
-            </div>
+            <EmojiBar />
+            <Jobs />
         </div>
     )
 }
