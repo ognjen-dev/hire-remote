@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div>
             <div className="absolute z-negative lg:opacity-100 opacity-100">
-                <img src={BackgroundBig} className="lg:block md:block hidden lg:-mt-18 xl:-m5-26 md:-mt-22" />
+                <img src={BackgroundBig} className="lg:block md:block hidden lg:-mt-18 xl:-m5-26 md:-mt-4" />
                 <img src={BackgroundSmall} className="lg:hidden md:hidden block -mt-6 md:-mt-44 sm:-mt-36" />
             </div>
             <div className="flex lg:flex justify-between lg:justify-between lg:p-3 lg:py-5 py-1">
