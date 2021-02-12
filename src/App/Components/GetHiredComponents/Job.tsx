@@ -58,10 +58,10 @@ const Job = () => {
         <div className="my-2 py-2 border lg:rounded-lg w-full flex items-center justify-between px-2">
             <div className="flex flex-row items-center">
                 <div className="ml-4">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" className="mr-4 w-11 rounded-sm border border-gray-200" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" className="mr-8 w-11 rounded-sm border border-gray-200" />
                 </div>
 
-                <div className="flex flex-col lg:flex-row ml-4 mr-9 lg:items-center">
+                <div className="flex flex-col lg:flex-row ml-8 lg:ml-4 mr-9 lg:items-center">
                     <div>
                         <p className="font-mono  font-bold text-m">
                             Senior Developer
@@ -88,7 +88,7 @@ const Job = () => {
 
                 </div>
 
-                <div className="font-mono mx-4 px-2 ml-16">
+                <div className="font-mono mx-4 px-2 lg:ml-16">
                     <p className="text-sm">📌 1d</p>
                 </div>
             </div>
