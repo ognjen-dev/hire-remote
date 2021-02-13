@@ -7,7 +7,7 @@ const Hire = () => {
     return (
         <div>
             <PageHeader />
-            <div className="lg:flex lg:flex-row">
+            <div className="lg:flex lg:flex-row flex flex-col">
                 <LeftSide />
                 <RightSide />
             </div>
