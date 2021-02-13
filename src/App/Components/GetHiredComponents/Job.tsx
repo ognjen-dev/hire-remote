@@ -62,7 +62,7 @@ interface JobProps {
 
 const Job = ({ bgcolor, position, employer, img, txt }: JobProps) => {
     return (
-        <div className={`my-2 text-${txt}-50 py-2 border lg:rounded-lg w-full flex items-center justify-between px-2 bg-${bgcolor}-400`}>
+        <a href="/" className={`my-2 text-${txt}-50 py-2 border lg:rounded-lg w-full flex items-center justify-between px-2 bg-${bgcolor}-400`}>
             <div className="flex flex-row items-center">
                 <div className="ml-4">
                     <img src={img} className="bg-white mr-8 w-11 rounded-sm border border-gray-200" />
@@ -105,12 +105,12 @@ const Job = ({ bgcolor, position, employer, img, txt }: JobProps) => {
                 </div>
             </div>
             <div>
-                <button className="md:block hidden bg-red-500 py-2 px-12 rounded-xl mr-5">
+                <button className="md:block hidden opacity-0 hover:opacity-100 bg-red-500 py-2 px-12 rounded-xl mr-5">
                     <p className={`font-semibold text-${bgcolor}-400`}>Apply</p>
                 </button>
             </div>
 
-        </div>
+        </a>
     )
 }
 
