@@ -1,6 +1,6 @@
 import React from 'react'
-import AdSpace from './AdSpace'
-import Job from './Job'
+import AdSpace from 'App/Components/GetHiredComponents/AdSpace'
+import Job from 'App/Components/GetHiredComponents/Job'
 
 const Jobs = () => {
     return (

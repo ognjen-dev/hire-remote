@@ -1,5 +1,5 @@
 import React from 'react'
-import Emoji from './Emoji'
+import Emoji from 'App/Components/GetHiredComponents/Emoji'
 
 const EmojiBar = () => {
     return (

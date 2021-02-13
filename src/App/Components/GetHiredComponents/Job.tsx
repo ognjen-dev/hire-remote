@@ -83,7 +83,7 @@ const Job = ({ bgcolor, position, employer, img, txt }: JobProps) => {
                             </p>
 
 
-                            <p className="font-mono inline-flex justify-center align-center bg-gray-300 rounded-sm p-0.5 w-max h-max mt-1 font-semibold text-xs px-1 my-0.5">
+                            <p className="font-mono inline-flex justify-center align-center text-white bg-gray-400 rounded-sm p-0.5 w-max h-max mt-1 font-semibold text-xs px-1 my-0.5">
                                 <p className="mr-0.5">🌎</p>WORLDWIDE
                             </p>
                         </div>

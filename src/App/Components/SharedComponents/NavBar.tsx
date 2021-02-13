@@ -1,6 +1,6 @@
 import React from 'react'
-import BackgroundBig from '../../../Images/big-screen-bg.png'
-import BackgroundSmall from '../../../Images/small-screen-bg.png'
+import BackgroundBig from 'App/Images/big-screen-bg.png'
+import BackgroundSmall from 'App/Images/small-screen-bg.png'
 
 const NavBar = () => {
     return (
