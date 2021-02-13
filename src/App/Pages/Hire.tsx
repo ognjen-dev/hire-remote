@@ -4,7 +4,7 @@ import PageHeader from 'App/Components/SharedComponents/PageHeader'
 const Hire = () => {
     return (
         <div>
-
+            <PageHeader />
         </div>
     )
 }
