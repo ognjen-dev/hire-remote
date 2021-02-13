@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import GetHired from '../src/App/Pages/GetHired'
+import 'App/App.css';
+import GetHired from 'App/Pages/GetHired'
+import Hire from 'App/Pages/Hire'
 
 function App() {
   return (
