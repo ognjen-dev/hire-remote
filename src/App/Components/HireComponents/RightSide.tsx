@@ -2,8 +2,8 @@ import React from 'react'
 
 const RightSide = () => {
     return (
-        <div>
-            
+        <div className="border w-2/5 min-h-full">
+            yo
         </div>
     )
 }

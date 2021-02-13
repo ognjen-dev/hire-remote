@@ -6,7 +6,7 @@ import Hire from 'App/Pages/Hire'
 function App() {
   return (
     <div className="App">
-      <GetHired />
+      <Hire />
     </div>
   );
 }

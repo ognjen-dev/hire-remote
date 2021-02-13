@@ -2,8 +2,8 @@ import React from 'react'
 
 const LeftSide = () => {
     return (
-        <div>
-            
+        <div className="border w-full min-h-screen">
+            yo
         </div>
     )
 }
