@@ -1,6 +1,8 @@
 import React from 'react'
 import BackgroundBig from 'App/Images/big-screen-bg.png'
 import BackgroundSmall from 'App/Images/small-screen-bg.png'
+// @ts-ignore
+import { Route, BrowserRouter as Router, Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
@@ -32,7 +34,7 @@ const NavBar = () => {
                     </button>
 
                     <button className="hover:border-red-600 hover:text-red-600 hover:bg-transparent ml-3 inline-flex items-center px-2 py-2 mr-2 lg:px-4 lg:py-2 border-red-500 border-2 rounded-lg bg-red-500 text-md font-medium text-white">
-                        Post <p className="md:block hidden">&nbsp;a&nbsp;</p>job
+                        <Link to="/get-hired">Post <p className="md:block hidden">&nbsp;a&nbsp;</p>job</Link>
                     </button>
                 </div>
             </div>
