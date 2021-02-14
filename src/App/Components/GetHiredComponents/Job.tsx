@@ -100,7 +100,7 @@ const Job = ({ bgcolor, position, employer, img, txt }: JobProps) => {
 
                 </div>
 
-                <div className="sticky font-mono lg:pl-20 lg:ml-16">
+                <div className="sticky font-mono md:pl-96 lg:pl-20 lg:ml-16">
                     <p className="text-sm">📌 1d</p>
                 </div>
             </div>
