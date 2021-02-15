@@ -5,7 +5,7 @@ import Reviews from 'App/Components/HireComponents/RightSideComponents/Reviews'
 
 const RightSide = () => {
     return (
-        <div className="border lg:w-3/5 w-full min-h-full flex flex-col items-center p-4 lg:pb-20">
+        <div className="border-l border-r border-t lg:w-3/5 w-full min-h-full flex flex-col items-center p-4 lg:pb-20">
             <Partners />
             <Ads />
             <Reviews />

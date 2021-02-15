@@ -4,16 +4,16 @@ import StickyRight from 'App/Components/HireComponents/RightSideComponents/Stick
 
 const StickyFooter = () => {
     return (
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row border-t">
 
-            <div className="border-t h-24">
+            <div className="w-full md:block hidden">
                 <StickyLeft />
             </div>
 
-            <div>
+            <div className="lg:w-5/12 w-full lg:pl-14">
                 <StickyRight />
             </div>
-            
+
         </div>
     )
 }

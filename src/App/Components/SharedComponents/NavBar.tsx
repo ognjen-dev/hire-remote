@@ -29,7 +29,7 @@ const NavBar = () => {
                 </a>
 
                 <div>
-                <button className="lg:block hidden lg:inline-flex hover:border-blue-300 hover:text-blue-300 hover:bg-transparent ml-3 inline-flex items-center px-4 py-2 border-blue-300 border-2 rounded-lg bg-blue-300 text-md font-medium text-white">
+                    <button className="lg:block hidden lg:inline-flex hover:border-blue-300 hover:text-blue-300 hover:bg-transparent ml-3 inline-flex items-center px-4 py-2 border-blue-300 border-2 rounded-lg bg-blue-300 text-md font-medium text-white">
                         Remote
                     </button>
 
