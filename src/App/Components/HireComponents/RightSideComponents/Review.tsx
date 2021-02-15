@@ -7,6 +7,7 @@ interface ReviewProps {
     company:string 
 }
 
+                    // @ts-ignore
 const Review = ({ quote, name, position, company }) => {
     return (
         <div>

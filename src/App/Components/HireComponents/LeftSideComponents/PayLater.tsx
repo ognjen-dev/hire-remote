@@ -5,7 +5,7 @@ import React from 'react'
 const PayLater = () => {
     return (
         <div className="ml-5 mt-5">
-            <p className="text-sm font-bold text-gray-600">
+            <p className="text-sm font-bold -mb-2 text-gray-600">
                 PAY LATER
             </p>
             <div className="flex flex-row items-center my-4 hover:opacity-70">
