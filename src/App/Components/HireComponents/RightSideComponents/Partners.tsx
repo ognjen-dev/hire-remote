@@ -1,5 +1,5 @@
 import React from 'react'
-import PartnerLogos from 'App/Components/HireComponents/RightSideComponents/PartnerLogos'
+import PartnerLogos from './PartnerLogos'
 
 
 const Partners = () => {
