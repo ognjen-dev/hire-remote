@@ -7,7 +7,7 @@ const PageHeader = () => {
         <div className="border-b">
             <div className="flex justify-between items center m-4 pb-2">
 
-                <a href="/" className="self-center text-2xl font-bold">BUSINESS LOGO</a>
+                <a href="/" className="self-center text-2xl font-bold hover:opacity-60">BUSINESS LOGO</a>
 
                 <p className="text-3xl font-bold mt-1 md:block hidden">Hire Remotely</p>
 
