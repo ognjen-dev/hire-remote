@@ -2,6 +2,9 @@ import React from 'react'
 import PageHeader from 'App/Components/SharedComponents/PageHeader'
 import LeftSide from 'App/Components/HireComponents/LeftSide'
 import RightSide from 'App/Components/HireComponents/RightSide'
+import StickyFooter from 'App/Components/HireComponents/RightSideComponents/StickyFooter'
+
+
 
 const Hire = () => {
     return (
@@ -11,6 +14,7 @@ const Hire = () => {
                 <LeftSide />
                 <RightSide />
             </div>
+            <StickyFooter />
 
         </div>
     )
