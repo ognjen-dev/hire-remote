@@ -13,7 +13,7 @@ const RichText = ({ title }:RichProps) => {
     return (
         <div>
             <p className="ml-5 mt-6 font-bold text-sm text-gray-700">{title}</p>
-            <div className="px-4 pt-4 lg:w-max w-11/12 ml-4 lg:mr-0">
+            <div className="px-4 pt-4 lg:ml-0 lg:w-full w-11/12 ml-4 lg:mr-0">
                 <CKEditor
                     editor={ClassicEditor}
                     data="<p></p><p></p><p></p><p></p>"
