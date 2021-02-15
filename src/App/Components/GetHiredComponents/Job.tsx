@@ -62,10 +62,10 @@ interface JobProps {
 
 const Job = ({ bgcolor, position, employer, img, txt }: JobProps) => {
     return (
-        <a href="/" className={`my-2 text-${txt}-50 py-2 border lg:rounded-lg w-full flex items-center justify-between px-2 bg-${bgcolor}-400`}>
+        <a href="/" className={`my-2 text-${txt}-50 py-2 lg:rounded-lg w-full flex items-center justify-between px-2 bg-${bgcolor}-400`}>
             <div className="flex flex-row items-center">
                 <div className="ml-4">
-                    <img src={img} className="bg-white mr-8 w-11 rounded-sm border border-gray-200" />
+                    <img src={img} className="bg-white mr-8 w-11 rounded-md border border-gray-200" />
                 </div>
 
                 <div className="flex flex-col lg:flex-row ml-8 lg:ml-4 mr-9 lg:items-center">
