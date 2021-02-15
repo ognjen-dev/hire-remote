@@ -10,7 +10,7 @@ const StickyFooter = () => {
                 <StickyLeft />
             </div>
 
-            <div className="lg:w-5/12 w-full bg-white lg:pl-14">
+            <div className="lg:w-6/12 w-full bg-white lg:pl-14">
                 <StickyRight />
             </div>
 

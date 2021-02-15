@@ -2,6 +2,7 @@ import React from 'react'
 import Partners from 'App/Components/HireComponents/RightSideComponents/Partners'
 import Ads from 'App/Components/HireComponents/RightSideComponents/Ads'
 import Reviews from 'App/Components/HireComponents/RightSideComponents/Reviews'
+import StickyRight from 'App/Components/HireComponents/RightSideComponents/StickyRight'
 
 const RightSide = () => {
     return (
@@ -9,6 +10,7 @@ const RightSide = () => {
             <Partners />
             <Ads />
             <Reviews />
+            <StickyRight />
         </div>
     )
 }

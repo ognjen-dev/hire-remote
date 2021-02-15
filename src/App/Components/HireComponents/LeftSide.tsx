@@ -3,7 +3,7 @@ import LetsStart from 'App/Components/HireComponents/LeftSideComponents/LetsStar
 import CheckBoxList from 'App/Components/HireComponents/LeftSideComponents/CheckBoxList'
 import JobDetails from 'App/Components/HireComponents/LeftSideComponents/JobDetails'
 import Company from 'App/Components/HireComponents/LeftSideComponents/Company'
-
+import StickyLeft from 'App/Components/HireComponents/RightSideComponents/StickyLeft'
 
 const LeftSide = () => {
     return (
@@ -32,6 +32,9 @@ const LeftSide = () => {
                     <Company />
                 </fieldset>
             </>
+            <div className="lg:block hidden">
+                <StickyLeft />
+            </div>
         </div>
     )
 }

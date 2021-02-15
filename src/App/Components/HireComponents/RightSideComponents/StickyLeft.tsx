@@ -2,7 +2,7 @@ import React from 'react'
 
 const StickyLeft = () => {
     return (
-        <div className="h-24 flex flex-row justify-between items-center bg-white">
+        <div className="h-24 flex flex-row fixed bottom-0 justify-between w-4/6 border-t z-20 items-center bg-white">
             <div>
                 <img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitch-square2-512.png" alt="yo" className="bg-white ml-10 w-11 h-11"/>
             </div>

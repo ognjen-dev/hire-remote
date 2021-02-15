@@ -14,7 +14,7 @@ const Hire = () => {
                 <LeftSide />
                 <RightSide />
             </div>
-            <StickyFooter />
+            <div className="w-full h-24 fixed bottom-0 bg-white z-10"></div>
 
         </div>
     )
